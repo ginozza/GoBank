@@ -25,7 +25,7 @@ type PostgresStore struct {
 func NewPostgresStore() (*PostgresStore, error){
 	err := godotenv.Load()
 	if err != nil {
-		log.Fatalf("Error loading .env file: %v", err)
+		log.Fatalf("error loading .env file: %v", err)
 	}
 
 	password := os.Getenv("POSTGRES_PASSWORD")
