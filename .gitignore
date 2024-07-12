@@ -27,3 +27,6 @@ Godeps/
 
 # Temporary files
 *.tmp
+
+# Testing files
+types_test.go
