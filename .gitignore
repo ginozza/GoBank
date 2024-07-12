@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the Go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Editor backup files
+*~
+
+# IDEs and editor directories
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Environment variable files
+.env
+
+# Temporary files
+*.tmp
