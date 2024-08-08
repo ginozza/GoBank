@@ -178,8 +178,6 @@ func createJWT(account *Account)(string, error){
 	return token.SignedString([]byte(secret))
 }
 
-// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50TnVtYmVyIjoxMzYyMjgsImV4cGlyZXNBdCI6MTUwMDB9.XMonHkYuRseljUuDKyW4baLSwyjkgZHxKSr6r8fmcm4
-
 func permissionDenied(w http.ResponseWriter){
 	WriteJSON(w, http.StatusForbidden, ApiError{Error: "permission denied"})
 }
